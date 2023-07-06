@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".RegistrationActivity3">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_views"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_view"
+        />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="7dp"
+        android:text="PROFESSEUR"
+        android:textColor="#0D0E0E"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP."
+        android:textColor="#050505"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginTop="58dp"
+        android:padding="7dp"/>
+
+    <TextView
+        android:id="@+id/mGuess1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:text="Guess the Number"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/mGuess2"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mGuess1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="41dp"
+        android:hint="Enter your guess"
+        android:inputType="number"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="29sp" />
+
+    <Button
+        android:id="@+id/BtnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUESS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_below="@id/mGuess2"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnGuess"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

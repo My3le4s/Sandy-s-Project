@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78674490872",
+    "project_id": "prosandy-db7b4",
+    "storage_bucket": "prosandy-db7b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78674490872:android:c1eca8a74cb586ec93920d",
+        "android_client_info": {
+          "package_name": "com.koech.pro_sandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78674490872-i06qrq14bg6ti8u8a45lqf3dm94l8r1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN8jBNzfv9xCvCBEpC_oorQro3IVKxAvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78674490872-i06qrq14bg6ti8u8a45lqf3dm94l8r1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

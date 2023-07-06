@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/bg_views"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_view"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFESSEUR"
+        android:textColor="#0A0C0C"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:padding="7dp"/>
+
+    <TextView
+        android:id="@+id/mEdtNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Kindly fill this page"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="155dp"
+        android:textColor="#080909"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/mEDTNAME1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#090A0B"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/mEDTEMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="Enter Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="#080909"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mEDTNUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="355dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mEDTNUMBER1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:textColor="#020304"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp" />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="550dp" />
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="550dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="515dp"
+        android:text="Date of Birth"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP."
+        android:textColor="#0F1112"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="58dp"
+        android:padding="7dp"/>
+
+    <Button
+        android:id="@+id/mbtnproceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROCEED"
+        android:textSize="33sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="100dp"/>
+
+
+</RelativeLayout>
